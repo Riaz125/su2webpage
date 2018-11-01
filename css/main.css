@@ -42,7 +42,7 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	background-color: #3bc492;
+	background-color: #1D1D1D;
 	color: #fff;
 	font-size: 13px;
 	font-weight: 600;
@@ -52,6 +52,7 @@ h5 {
 	border-radius: 2px;
 	display: inline-block;
 	text-transform: uppercase;
+	margin-top: 30px;
 }
 .btn:hover, .btn:focus {
 	background-color: #3d3d3d;
@@ -125,11 +126,17 @@ ul li {
 	text-transform:uppercase;
 	letter-spacing:7px;
 }
+#header .logo img {
+	height: auto;
+	max-height: 100px;
+	width: auto;
+	max-width: 100%;
+}
 #header.fixed {
-	background-color: #fff;
+	background-color: #000;
 }
 #header.fixed a {
-	color: #000;
+	color: #fff;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -304,7 +311,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/ari-spada-561450-unsplash.jpg);
+	background-image: url(../images/drmakete-lab-57353-unsplash.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -322,20 +329,21 @@ ul li {
 	font-size: 65px;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-shadow: 2px 2px black;
 }
 .banner-text p {
-	color: rgba(255, 255, 255, 0.60);
+	color: rgba(0, 0, 0, .5);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 /* ==========================================================================
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #00aeda;
+	background-color: #000;
 }
 .intro h3 {
 	color: #fff;
